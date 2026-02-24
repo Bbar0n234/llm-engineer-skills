@@ -10,6 +10,9 @@
 |-------|----------|
 | [Schema-Guided Reasoning](skills/schema-guided-reasoning/SKILL.md) | Паттерн направленного рассуждения LLM через Pydantic-схемы: structured output, constrained decoding, cascade, routing, adaptive planning |
 | [Prompt Engineering](skills/prompt-engineering/SKILL.md) | Принципы написания системных промптов: signal-to-noise, Goldilocks zone, итеративная разработка, антипаттерны |
+| [Meeting Summarizer](skills/meeting-summarizer/SKILL.md) | Транскрипция и суммаризация митингов: аудио/видео → транскрипт (AssemblyAI) → структурированное саммари с решениями, задачами и инсайтами |
+| [AIDD Methodology](skills/aidd-methodology/SKILL.md) | AI-Driven Development — методология ведения проектов с LLM-агентом: Context First, двухуровневое планирование, итерации, ADR, структура документации |
+| [Skill Authoring](skills/skill-authoring/SKILL.md) | Создание и структурирование скиллов для Claude Code: шаблоны, расположения, progressive disclosure, чеклист |
 
 ## Установка
 
