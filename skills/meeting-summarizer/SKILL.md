@@ -14,11 +14,21 @@ description: >
 
 - **ffmpeg** — для извлечения аудио из видео
 - **assemblyai** — Python-пакет (`pip install assemblyai`)
-- **ASSEMBLYAI_API_KEY** — переменная окружения с API-ключом [AssemblyAI](https://www.assemblyai.com/)
+- **ASSEMBLYAI_API_KEY** — API-ключ [AssemblyAI](https://www.assemblyai.com/)
+
+### Настройка API-ключа
+
+Перед первым использованием добавь ключ в `~/.bashrc`:
 
 ```bash
-export ASSEMBLYAI_API_KEY="your-key-here"  # добавь в ~/.bashrc или ~/.zshrc
+echo 'export ASSEMBLYAI_API_KEY="your-key-here"' >> ~/.bashrc
 ```
+
+Затем перезапусти Claude Code.
+
+Если при запуске видишь ошибку `ASSEMBLYAI_API_KEY is not set`:
+1. Убедись, что ключ добавлен именно в `~/.bashrc`
+2. Перезапусти Claude Code
 
 ## Workflow
 
@@ -77,6 +87,7 @@ prompt: |
   - {{ PROJECT_CONTEXT }}: <сформированный тобой контекст>
   - {{ TRANSCRIPT_PATH }}: <путь к transcript.txt>
   - {{ OUTPUT_PATH }}: <путь для сохранения, например doc/meetings/2026-01-17_1_summary.md>
+  - {{ USER_PREFERENCES }}: <пожелания пользователя по формату/детализации, или "нет" если не указаны>
 
   Выполни инструкции из промпта: прочитай транскрипт, создай суммари, сохрани в указанный файл.
 ```

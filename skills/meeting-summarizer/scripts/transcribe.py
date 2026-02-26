@@ -8,11 +8,6 @@ Usage:
 Output:
     Creates transcript.txt in the same directory as input file.
     Format: "Спикер A: текст\nСпикер B: текст\n..."
-
-Requires:
-    - ASSEMBLYAI_API_KEY environment variable
-    - pip install assemblyai
-    - ffmpeg (for video files)
 """
 
 import os

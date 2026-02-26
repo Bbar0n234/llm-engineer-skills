@@ -10,6 +10,10 @@ Analyze the transcribed team call and create a comprehensive summary that captur
 
 {{ PROJECT_CONTEXT }}
 
+## User Preferences
+
+{{ USER_PREFERENCES }}
+
 ## Input
 
 Read the transcript from: `{{ TRANSCRIPT_PATH }}`
@@ -55,6 +59,7 @@ Important conclusions, ideas, risks that surfaced during the discussion.
 - Ignore small talk, off-topic discussions, and informal chatter
 - Focus on decisions, tasks, and insights that matter beyond this call
 - If speakers are labeled A, B, C — try to identify them by context and use names if possible
+- If user preferences are provided, prioritize them over default behavior
 
 ## Save Result
 
