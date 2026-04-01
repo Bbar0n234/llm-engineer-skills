@@ -1,12 +1,13 @@
 ---
-name: skill-authoring
+name: skill-writing
 description: >
   Помогает создавать и структурировать скиллы для Claude Code.
   Используй когда нужно написать, создать, организовать или
-  отрефакторить скилл.
+  отрефакторить скилл. Skill writing, skill creation, create skill,
+  write skill, new skill, author skill.
 ---
 
-# Skill Authoring
+# Skill Writing
 
 ## Что такое Skills
 
